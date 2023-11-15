@@ -449,6 +449,7 @@ img {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center; /* Center items vertically */
   }
   
   .skills__container-box {
@@ -456,6 +457,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid #ccc; /* Add border for grid lines */
+    padding: 1rem; /* Add padding for spacing */
   }
   
   .skills__container-img {
@@ -472,7 +475,6 @@ img {
     display: block;
     text-align: center;
   }
-
   
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
@@ -966,6 +968,23 @@ img {
         grid-template-columns: 0.5fr;
     }
 
+    .services__container {
+        grid-template-columns: repeat(3, 218px);
+        justify-content: center;
+    }
+
+    .services__icon {
+        font-size: 2rem;
+    }
+
+    .services__content {
+        padding: 6rem 0 2rem 2.5rem;
+    }
+
+    .services__modal-content {
+        width: 450px;
+    }
+
     .portfolio__img {
         width: 320px;
     }
@@ -1056,4 +1075,11 @@ img {
         bottom: -4.5rem;
     }
 
+    .contact__form {
+        width: 460px;
+    }
+
+    .contact__inputs {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
