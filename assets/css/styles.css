@@ -473,6 +473,7 @@ img {
     text-align: center;
   }
 
+  
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
     display: flex;
@@ -845,7 +846,6 @@ img {
     }
 
     .about__container,
-    .skills__container,
     .portfolio__content,
     .project__container,
     .contact__container,
@@ -966,23 +966,6 @@ img {
         grid-template-columns: 0.5fr;
     }
 
-    .services__container {
-        grid-template-columns: repeat(3, 218px);
-        justify-content: center;
-    }
-
-    .services__icon {
-        font-size: 2rem;
-    }
-
-    .services__content {
-        padding: 6rem 0 2rem 2.5rem;
-    }
-
-    .services__modal-content {
-        width: 450px;
-    }
-
     .portfolio__img {
         width: 320px;
     }
@@ -1073,11 +1056,4 @@ img {
         bottom: -4.5rem;
     }
 
-    .contact__form {
-        width: 460px;
-    }
-
-    .contact__inputs {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
