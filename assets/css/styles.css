@@ -449,7 +449,6 @@ img {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center; /* Center items vertically */
   }
   
   .skills__container-box {
@@ -457,8 +456,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ccc; /* Add border for grid lines */
-    padding: 1rem; /* Add padding for spacing */
   }
   
   .skills__container-img {
@@ -475,7 +472,7 @@ img {
     display: block;
     text-align: center;
   }
-  
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
     display: flex;
