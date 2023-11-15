@@ -69,29 +69,6 @@ tabs.forEach((tab) => {
     });
 });
 
-/*==================== SERVICES MODAL ====================*/
-const modalViews = document.querySelectorAll(".services__modal");
-const modalBtns = document.querySelectorAll(".services__button");
-const modalCloses = document.querySelectorAll(".services__modal-close");
-
-let modal = function (modalClick) {
-    modalViews[modalClick].classList.add("active-modal");
-};
-
-modalBtns.forEach((modalBtn, index) => {
-    modalBtn.addEventListener("click", () => {
-        modal(index);
-    });
-});
-
-modalCloses.forEach((modalClose, index) => {
-    modalClose.addEventListener("click", () => {
-        modalViews.forEach((modalView) => {
-            modalView.classList.remove("active-modal");
-        });
-    });
-});
-
 /*==================== PORTFOLIO SWIPER  ====================*/
 var swiperPortfolio = new Swiper(".portfolio__container", {
     cssMode: true,
@@ -107,23 +84,6 @@ var swiperPortfolio = new Swiper(".portfolio__container", {
     },
 });
 
-/*==================== TESTIMONIAL ====================*/
-var swiperTestimonial = new Swiper(".testimonial__container", {
-    loop: true,
-    grabCursor: true,
-    spaceBetween: 48,
-
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true,
-    },
-    breakpoints: {
-        568: {
-            slidesPerView: 2,
-        },
-    },
-});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll("section[id]");
