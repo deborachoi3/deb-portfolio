@@ -565,6 +565,12 @@ img {
     margin-bottom: var(--mb-0-5);
 }
 
+.portfolio__date{
+    font-size: var(--small-font-size);
+    color:grey;
+    margin-bottom: 10px; /* Adjust the value to your preference */
+}
+
 .portfolio__description {
     margin-bottom: var(--mb-0-75);
 }
