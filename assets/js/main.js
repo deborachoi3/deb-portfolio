@@ -11,7 +11,7 @@ if (navToggle) {
     });
 }
 
-/*===== MENU HIDDEN =====*/
+/*===== MENU HIDDEN ======*/
 /* Validate if constant exists */
 if (navClose) {
     navClose.addEventListener("click", () => {
