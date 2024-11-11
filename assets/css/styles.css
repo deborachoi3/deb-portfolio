@@ -658,17 +658,6 @@ img {
   justify-content: space-between;
   align-items: flex-start;
 }
-
-.robobo__container {
-  margin-left: 20px; /* Adjust the margin as needed */
-}
-
-.robobo__img {
-  display: block;
-  margin-top: 10px;
-  width: 350px; /* Set the desired width for the image */
-}
-
   
 /*==================== FOOTER ====================*/
 .footer {
