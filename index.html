@@ -18,6 +18,7 @@
     <title>Debora Choi</title>
 </head>
 <body>  
+
 <!--==================== HEADER ====================-->
 <header class="header" id="header">
     <nav class="nav container">
@@ -103,19 +104,22 @@
                             <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                             165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                             129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-
-                            <image class="home__blob-img" x="9" y="18" xlink:href="assets/img/robo4.png"/>
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>   
                         </g>
                     </svg>
+                
+                    <div class="home__blob-img-container">
+                        <img src="assets/img/robo4.png" alt="Robot" class="home__blob-img" />
+                    </div>
                 </div>
+                
                 
 
                 <div class="home__data">
-                    <h1 class="home__title">Hi! I'm Debora Choi</h1>
-                    <h3 class="home__subtitle">Software Engineer</h3>
+                    <h1 class="home__title">Hello! I'm Debora Choi</h1>
+                    <h3 class="home__subtitle">Software Engineer | AI Researcher</h3>
                     <p class="home__description">
-                        & a recent UCSC Computer Science Graduate who loves to create things from pixels
+                        I'm a Computer Science graduate from UC Santa Cruz. I love building things—whether it's through code, design, or creative projects!
                     </p>
                     <a href="#portfolio"class="button button--flex">
                         Explore My Work <i class="uil uil-message button__icon"></i>
@@ -145,8 +149,8 @@
 
             <div class="about__data">
                 <p class="about__description">
-                    I am a software engineer with a deep passion for problem solving and coding. 
-                    In my free time I enjoy gymming, writing, reading, and rock climbing! 
+                    I'm a Software Engineer and AI Researcher with a passion for problem-solving and building scalable solutions. 
+                    Outside of work, I enjoy going to the gym, writing, and getting creative with arts and crafts.
                 </p>
                 <div class="about__info">
                     <div>
@@ -164,7 +168,7 @@
                 </div>
 
                 <div class="about__buttons">
-                    <a download="" href="assets/img/pdf/Choi_Debora_2024_Resume.pdf" class="button button--flex">
+                    <a download="" href="assets/img/pdf/Choi_Debora_2025_Resume.pdf" class="button button--flex">
                         Download Resume<i class="uil uil-download-alt button__icon"></i>
                     </a>
                 </div>
@@ -242,161 +246,55 @@
         <div class="skills__container-name">PostgreSQL</div>
       </div>
     </div>
-  </section>
-  
-    <!--==================== QUALIFICATION ====================-->
-    <section class="qualification section" id="quals">
-        <h2 class="section__title">&lt;Qualifications/&gt;</h2>
-        <span class="section__subtitle">My personal journey</span>
+</section>
 
-        <div class="qualification__container container">
-            <div class="qualification__tabs">
-                <div class="qualification__button button--flex qualification__active" data-target="#education">
-                    <i class="uil uil-graduation-cap qualification__icon"></i>
-                    Education
-                </div>
-                <div class="qualification__button button--flex" data-target="#work">
-                    <i class="uil uil-briefcase-alt qualification__icon"></i>
-                    Work
-                </div>
+
+<!--==================== QUALIFICATION ====================-->
+<section class="qualification section" id="quals">
+    <h2 class="section__title">&lt;Qualifications/&gt;</h2>
+    <span class="section__subtitle">My personal journey</span>
+
+    <div class="qualification__container container">
+        <div class="qualification__tabs">
+            <div class="qualification__button button--flex qualification__active" data-target="#work">
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                Work
             </div>
-            <div class="qualification__sections">
-                <!-- 1 -->
-                <div class="qualification__content qualification__active" data-content id="education">
-                    <!-- 1 -->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">High School</h3>
-                            <span class="qualification__subtitle">Galileo Academy of Science and Technology</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2017 - 2021
-                            </div>
-                        </div>
+            <div class="qualification__button button--flex" data-target="#education">
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
+            </div>
+            <div class="qualification__button button--flex" data-target="#certification">
+                <i class="uil uil-award qualification__icon"></i>
+                Certifications
+            </div>
+        </div>
 
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
+        <div class="qualification__sections">
 
-                    <!-- 2 -->
-                    <div class="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <!-- <span class="qualification__line"></span> -->
-                        </div>
-
-                        <div>
-                            <h3 class="qualification__title">Computer Science B.S.</h3>
-                            <span class="qualification__subtitle">University of California, Santa Cruz</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2021 - 2024
-                            </div>
+            <!-- Work FIRST (Reversed Order: Most Recent First) -->
+            <div class="qualification__content" data-content id="work">
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Keywords Studios</h3>
+                        <span class="qualification__subtitle">AI Researcher</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            March 2025 - Present
                         </div>
                     </div>
-
-                </div>
-                <!-- 2 -->
-                <div class="qualification__content" data-content id="work">
-                    <!-- 1 -->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">Software Engineer Intern</h3>
-                            <span class="qualification__subtitle">Code Nation</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2019 - 2021
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-
-                    <!-- 2 -->
-                    <div class="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 class="qualification__title">Code Nation Fellowship Intern</h3>
-                            <span class="qualification__subtitle">LaunchDarkly</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2020 - 2021
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <!-- 3 -->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">Code Nation Fellowship Intern</h3>
-                            <span class="qualification__subtitle">StitchFix</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2019 - 2020
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-
-                    <!-- 4 -->
-                    <div class="qualification__data">
-                        <div></div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                        <div>
-                            <h3 class="qualification__title">Mission Bit</h3>
-                            <span class="qualification__subtitle">Intro to Python Intern</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                June 2021 - July 2021
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- 5 -->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title"> UCSC Google Developers</h3>
-                            <span class="qualification__subtitle">Active club member</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                December 2022 -  May 2024
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-                 <!-- 4 -->
-                 <div class="qualification__data">
-                    <div></div>
-
                     <div>
                         <span class="qualification__rounder"></span>
                         <span class="qualification__line"></span>
                     </div>
+                </div>
 
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
                     <div>
                         <h3 class="qualification__title">UCSC Artificial Intelligence</h3>
                         <span class="qualification__subtitle">Active club member</span>
@@ -405,12 +303,89 @@
                             February 2023 - June 2024
                         </div>
                     </div>
-
                 </div>
+
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Mission Bit</h3>
+                        <span class="qualification__subtitle">Intro to Python Intern</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            June 2021 - July 2021
+                        </div>
+                    </div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- No line for last item -->
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">Software Engineer Intern</h3>
+                        <span class="qualification__subtitle">Code Nation</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2019 - 2021
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- Education SECOND -->
+            <div class="qualification__content" data-content id="education">
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Computer Science B.S.</h3>
+                        <span class="qualification__subtitle">University of California, Santa Cruz</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2021 - 2024
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">High School Diploma</h3>
+                        <span class="qualification__subtitle">Galileo Academy of Science and Technology</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2017 - 2021
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications THIRD -->
+            <div class="qualification__content" data-content id="certification">
+                <a href="https://certifications.asana.com/8b117d19-b8eb-49af-992b-3e686355c92d#acc.EjqYwPom" target="_blank" class="cert__link">
+                    <div class="qualification__certificate-image">
+                        <img src="assets/img/workflow_cert.png" alt="Asana Workflow Specialist Certificate" class="certificate__img" />
+                    </div>
+                    <div class="qualification__text-under-image">
+                        <h3 class="qualification__title">Asana Workflow Specialist</h3>
+                    </div>
+                </a>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!--
         1. Manga DB
@@ -539,7 +514,7 @@
           <i class="uil uil-phone contact__icon"></i>
           <div>
             <h3 class="contact__title">Call Me</h3>
-            <span class="contact__subtitle">+14155359371</span>
+            <span class="contact__subtitle">510-519-9705 </span>
           </div>
         </div>
         <div class="contact__information">
@@ -572,12 +547,12 @@
         <div class="footer__container container grid">
             <div>
                 <h1 class="footer__title">Debora</h1>
-                <span class="footer__subtitle">Software Engineer</span>
+                <span class="footer__subtitle">Software Engineer | AI Researcher</span>
             </div>
 
             
 
-            <p class="footer__copy">&#169; Debora Choi 2024. All right reserved</p>
+            <p class="footer__copy">&#169; Debora Choi 2025. All right reserved</p>
         </div>
     </div>
 </footer>
@@ -593,5 +568,8 @@
 
 <!--==================== MAIN JS ====================-->
 <script src="assets/js/main.js"></script>
+
+<script src="assets/js/hover.js"></script>
+
 </body>
 </html>
