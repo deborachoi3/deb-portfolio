@@ -343,67 +343,57 @@ img {
 .home__scroll-arrow {
     font-size: 1.25rem;
 }
-/* Ensure the blob container is relative for positioning */
+
+.home__img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home__blob {
-    position: relative; /* Allows for absolute positioning of child elements */
-    width: 200px; /* Blob width is fixed */
+    position: absolute;
+    width: 100%;
+    height: 100%;
     fill: var(--first-color);
-    height: auto; /* Keep the height proportional to the width */
 }
 
-/* Container for the image, positioned on top of the blob */
-.home__blob-img-container {
-    position: absolute; /* Absolute positioning to place it inside the blob */
-    top: 35%; /* Adjust the top position to fit the image inside the blob */
-    left: 66%; /* Center horizontally inside the blob */
-    transform: translateX(-50%); /* Center the image horizontally */
-    z-index: 1; /* Ensure it's on top of the blob */
-}
-
-/* Main image styles */
 .home__blob-img {
-    width: 100%; /* Image width relative to the blob */
-    max-width: 260px; /* Max size for the robot image */
+    position: absolute;
+    width: 80%;
+    max-width: 260px;
     height: auto;
-    transition: all 0.3s ease-in-out; /* Smooth transition for resizing */
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Mobile View Adjustments */
 @media (max-width: 375px) {
-    /* Resize the blob for smaller screens */
-    .home__blob {
-        width: 160px; /* Reduce blob size on mobile */
+    .home__img {
+        width: 160px;
+        height: 160px;
     }
-
-    /* Adjust positioning of the image container on mobile */
-    .home__blob-img-container {
-        left: 50%; /* Center the image horizontally on mobile */
-        transform: translateX(-50%); /* Keep the image centered */
-    }
-
-    /* Resize the image on mobile */
+    
     .home__blob-img {
-        width: 80%; /* Make the robot smaller on mobile */
-        max-width: 200px; /* Limit the max size of the image */
+        width: 70%;
+        max-width: 200px;
     }
 }
 
-/* Additional Mobile View for very small screens (like phones in portrait mode) */
+/* Additional Mobile View for very small screens */
 @media (max-width: 410px) {
-    .home__blob {
-        width: 120px; /* Further reduce blob size for very small screens */
+    .home__img {
+        width: 120px;
+        height: 120px;
     }
-
-    .home__blob-img-container {
-        top: 45%; /* Move the image down slightly more on smaller screens */
-    }
-
+    
     .home__blob-img {
-        width: 70%; /* Make the robot smaller for very small screens */
-        max-width: 180px; /* Set max size to keep it fitting well */
+        width: 60%;
+        max-width: 180px;
     }
 }
-
 
 /* Create a small back-and-forth effect */
 @keyframes flickerEffect {
