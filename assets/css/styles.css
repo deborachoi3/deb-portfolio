@@ -682,6 +682,21 @@ img {
     margin-bottom: var(--mb-0-75);
 }
 
+.portfolio__data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .portfolio__button {
+    margin-top: 20px;
+    transform: scale(0.8);
+    transform-origin: left center; /* scale from left edge */
+    display: inline-block;
+  }
+  
+  
+  
 .portfolio__button:hover .button__icon {
     transform: translateX(0.25rem);
 }
@@ -717,6 +732,36 @@ img {
 .swiper-pagination-bullet {
     outline: none;
 }
+
+.tech-tags {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .tag {     /* smaller font size */
+    padding: 0.15rem 0.4rem; /* less padding to shrink the badge */
+    border-radius: 12px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: white;
+    -webkit-user-select: none; /* Safari 3+, iOS Safari 3+ */
+    user-select: none;         /* Standard syntax */
+  }
+  
+  .tag.frontend {
+    background-color: #36C5F0; /* Slack Blue */
+  }
+  
+  .tag.backend {
+    background-color: #2EB67D; /* Slack Green */
+  }
+  
+  .tag.language {
+    background-color: #E01E5A; /* Slack Red */
+  }
+  
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
