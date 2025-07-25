@@ -383,7 +383,7 @@ img {
 
 @media screen and (max-width: 480px) { /* Target phone screens */
     .home__spline iframe {
-        margin-top: 250px;
+        margin-top: 300px;
         width: 900px; /* Reduce width by 50% */
         height: 700px; /* Reduce height by 50% */
         padding-bottom: 150px;
