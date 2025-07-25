@@ -381,7 +381,7 @@ img {
     height: 700px;
 }
 
-@media screen and (max-width: 768px) { /* Target phone screens */
+@media screen and (max-width: 480px) { /* Target phone screens */
     .home__spline iframe {
         margin-top: 250px;
         width: 900px; /* Reduce width by 50% */
