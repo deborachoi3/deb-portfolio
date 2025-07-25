@@ -386,7 +386,6 @@ img {
         margin-top: 450px;
         width: 900px; /* Reduce width by 50% */
         height: 700px; /* Reduce height by 50% */
-        transform: scale(0.35);
     }
 }
 
